@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "19D456C1D5FCDE97F8CC4F22AC92365701F9A37F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "19D456C1D5FCDE97F8CC4F22AC92365701F9A37F" : 0,
+    "A01C2B2C72EF8367E6CA3B03FECE025F0B2D7513" : 0,
+    "16F312E5F4C94584D81A0856A226CDD8C3F87605" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7E2A41A5-3AEB-45EA-AF9C-916981141BD5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "19D456C1D5FCDE97F8CC4F22AC92365701F9A37F" : "IOS\/",
+    "A01C2B2C72EF8367E6CA3B03FECE025F0B2D7513" : "IOS\/touchcontrols\/touchcontrols\/MobileTouchControls\/",
+    "16F312E5F4C94584D81A0856A226CDD8C3F87605" : "IOS\/touchcontrols\/touchcontrols\/libRocket\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "touchcontrols",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "touchcontrols\/touchcontrols.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/libRocket\/libRocket.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "16F312E5F4C94584D81A0856A226CDD8C3F87605"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/emileb\/Open_IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "19D456C1D5FCDE97F8CC4F22AC92365701F9A37F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/emileb\/MobileTouchControls.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A01C2B2C72EF8367E6CA3B03FECE025F0B2D7513"
+    }
+  ]
+}
