@@ -287,6 +287,7 @@
 		56EA86FA13E9EC2B002E47EB /* SDL_coreaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_coreaudio.h; path = coreaudio/SDL_coreaudio.h; sourceTree = "<group>"; };
 		56ED04E0118A8EE200A56AA6 /* SDL_power.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_power.c; path = ../../src/power/SDL_power.c; sourceTree = SOURCE_ROOT; };
 		56ED04E2118A8EFD00A56AA6 /* SDL_syspower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDL_syspower.m; path = ../../src/power/uikit/SDL_syspower.m; sourceTree = SOURCE_ROOT; };
+		605164C01C4BA8D2004B4C60 /* SDL_beloko_extra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_beloko_extra.h; sourceTree = "<group>"; };
 		93CB792213FC5E5200BD3E05 /* SDL_uikitviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_uikitviewcontroller.h; sourceTree = "<group>"; };
 		93CB792513FC5F5300BD3E05 /* SDL_uikitviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDL_uikitviewcontroller.m; sourceTree = "<group>"; };
 		AA0AD06116647BBB00CE5896 /* SDL_gamecontroller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_gamecontroller.c; sourceTree = "<group>"; };
@@ -759,6 +760,7 @@
 				AA7558941595D55500BBD41B /* SDL_types.h */,
 				AA7558951595D55500BBD41B /* SDL_version.h */,
 				AA7558961595D55500BBD41B /* SDL_video.h */,
+				605164C01C4BA8D2004B4C60 /* SDL_beloko_extra.h */,
 			);
 			name = "Public Headers";
 			path = ../../include;

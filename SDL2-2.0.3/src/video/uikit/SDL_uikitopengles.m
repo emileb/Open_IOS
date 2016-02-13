@@ -34,6 +34,7 @@
 #include "SDL_loadso.h"
 #include <dlfcn.h>
 
+//#include "SDL_beloko_extra.h"
 
 //Added my Emile
 static void (*swapBufferCallback)(void) = NULL;

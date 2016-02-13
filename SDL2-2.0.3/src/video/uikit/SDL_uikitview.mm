@@ -114,12 +114,7 @@ void _uikit_keyboard_init() ;
                         break;
                     }
                 }
-        if (locationInView.x < 0.5)
-            SDL_SendKeyboardKey(SDL_PRESSED,SDL_SCANCODE_UP);
-        
-SDL_SendKeyboardKey(SDL_PRESSED,SDL_SCANCODE_RETURN);
-    SDL_SendKeyboardKey(SDL_RELEASED,SDL_SCANCODE_RETURN);
-        
+  
     
 //        if (!leftFingerDown) {
 //            CGPoint locationInView = [self touchLocation:touch shouldNormalize:NO];

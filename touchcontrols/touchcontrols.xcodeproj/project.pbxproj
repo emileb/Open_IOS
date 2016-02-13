@@ -28,7 +28,6 @@
 		6021E79B1C388CB400844A9F /* FontFamily.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6021E7971C388CB400844A9F /* FontFamily.cpp */; };
 		6021E79C1C388CB400844A9F /* FontProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6021E7981C388CB400844A9F /* FontProvider.cpp */; };
 		605896301C14493300921EAE /* zip_source_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87881C1302730017C41C /* zip_source_zip.c */; };
-		605896311C14493300921EAE /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B88041C1302740017C41C /* tinyxml.cpp */; };
 		605896321C14493300921EAE /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87181C1302730017C41C /* png.c */; };
 		605896341C14493300921EAE /* zip_strerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87901C1302730017C41C /* zip_strerror.c */; };
 		605896351C14493300921EAE /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B871C1C1302730017C41C /* pngget.c */; };
@@ -38,7 +37,6 @@
 		605896391C14493300921EAE /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87221C1302730017C41C /* pngrtran.c */; };
 		6058963A1C14493300921EAE /* zip_error_clear.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87421C1302730017C41C /* zip_error_clear.c */; };
 		6058963B1C14493300921EAE /* zip_dirent.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87381C1302730017C41C /* zip_dirent.c */; };
-		6058963C1C14493300921EAE /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B88061C1302740017C41C /* tinyxmlerror.cpp */; };
 		6058963D1C14493300921EAE /* zip_source_free.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87841C1302730017C41C /* zip_source_free.c */; };
 		6058963E1C14493300921EAE /* Mouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B879C1C1302730017C41C /* Mouse.cpp */; };
 		6058963F1C14493300921EAE /* zip_set_archive_comment.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87761C1302730017C41C /* zip_set_archive_comment.c */; };
@@ -75,14 +73,12 @@
 		6058965E1C14493300921EAE /* zip_set_name.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B877C1C1302730017C41C /* zip_set_name.c */; };
 		6058965F1C14493300921EAE /* zip_set_archive_flag.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87781C1302730017C41C /* zip_set_archive_flag.c */; };
 		605896601C14493300921EAE /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87211C1302730017C41C /* pngrio.c */; };
-		605896611C14493300921EAE /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B88071C1302740017C41C /* tinyxmlparser.cpp */; };
 		605896621C14493300921EAE /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87291C1302730017C41C /* pngwutil.c */; };
 		605896631C14493300921EAE /* TouchControlsContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B880B1C1302740017C41C /* TouchControlsContainer.cpp */; };
 		605896641C14493300921EAE /* zip_get_archive_comment.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87601C1302730017C41C /* zip_get_archive_comment.c */; };
 		605896651C14493300921EAE /* zip_fclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B874C1C1302730017C41C /* zip_fclose.c */; };
 		605896661C14493300921EAE /* GLRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B87111C1302730017C41C /* GLRect.cpp */; };
 		605896671C14493300921EAE /* zip_unchange_archive.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87961C1302730017C41C /* zip_unchange_archive.c */; };
-		605896681C14493300921EAE /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B88021C1302740017C41C /* tinystr.cpp */; };
 		605896691C14493300921EAE /* zip_error_get_sys_type.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87461C1302730017C41C /* zip_error_get_sys_type.c */; };
 		6058966A1C14493300921EAE /* zip_entry_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B873C1C1302730017C41C /* zip_entry_new.c */; };
 		6058966B1C14493300921EAE /* zip_file_error_get.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B87501C1302730017C41C /* zip_file_error_get.c */; };
@@ -487,6 +483,10 @@
 		6062930A1C4A9D6C00699E3B /* ShellFileInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606293011C4A9D6C00699E3B /* ShellFileInterface.cpp */; };
 		6062930B1C4A9D6C00699E3B /* ShellRenderInterfaceOpenGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606293041C4A9D6C00699E3B /* ShellRenderInterfaceOpenGL.cpp */; };
 		6062930C1C4A9D6C00699E3B /* ShellSystemInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606293061C4A9D6C00699E3B /* ShellSystemInterface.cpp */; };
+		606758851C52A25900B52C94 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606758801C52A25900B52C94 /* tinystr.cpp */; };
+		606758861C52A25900B52C94 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606758811C52A25900B52C94 /* tinyxml.cpp */; };
+		606758871C52A25900B52C94 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606758821C52A25900B52C94 /* tinyxmlerror.cpp */; };
+		606758881C52A25900B52C94 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606758831C52A25900B52C94 /* tinyxmlparser.cpp */; };
 		606D591B1C3803E80084D67B /* TouchGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 606D59191C3803E80084D67B /* TouchGui.cpp */; };
 		608B88111C1302740017C41C /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B870B1C1302730017C41C /* Button.cpp */; };
 		608B88121C1302740017C41C /* ControlSuper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B870D1C1302730017C41C /* ControlSuper.cpp */; };
@@ -574,10 +574,6 @@
 		608B88651C1302740017C41C /* signal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B87F71C1302740017C41C /* signal.cpp */; };
 		608B88661C1302740017C41C /* signal_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B87F91C1302740017C41C /* signal_base.cpp */; };
 		608B88671C1302740017C41C /* trackable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B87FC1C1302740017C41C /* trackable.cpp */; };
-		608B88681C1302740017C41C /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B88021C1302740017C41C /* tinystr.cpp */; };
-		608B88691C1302740017C41C /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B88041C1302740017C41C /* tinyxml.cpp */; };
-		608B886A1C1302740017C41C /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B88061C1302740017C41C /* tinyxmlerror.cpp */; };
-		608B886B1C1302740017C41C /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B88071C1302740017C41C /* tinyxmlparser.cpp */; };
 		608B886C1C1302740017C41C /* TouchControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B88081C1302740017C41C /* TouchControls.cpp */; };
 		608B886D1C1302740017C41C /* TouchControlsContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B880B1C1302740017C41C /* TouchControlsContainer.cpp */; };
 		608B886E1C1302740017C41C /* TouchJoy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 608B880D1C1302740017C41C /* TouchJoy.cpp */; };
@@ -930,6 +926,10 @@
 		606293051C4A9D6C00699E3B /* ShellRenderInterfaceOpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellRenderInterfaceOpenGL.h; sourceTree = "<group>"; };
 		606293061C4A9D6C00699E3B /* ShellSystemInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShellSystemInterface.cpp; sourceTree = "<group>"; };
 		606293071C4A9D6C00699E3B /* ShellSystemInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellSystemInterface.h; sourceTree = "<group>"; };
+		606758801C52A25900B52C94 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		606758811C52A25900B52C94 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		606758821C52A25900B52C94 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		606758831C52A25900B52C94 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
 		606D59191C3803E80084D67B /* TouchGui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TouchGui.cpp; sourceTree = "<group>"; };
 		608B86F11C12F8790017C41C /* libtouchcontrols.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtouchcontrols.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		608B87091C1302730017C41C /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
@@ -1168,12 +1168,6 @@
 		608B87FE1C1302740017C41C /* type_traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = type_traits.h; sourceTree = "<group>"; };
 		608B87FF1C1302740017C41C /* visit_each.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visit_each.h; sourceTree = "<group>"; };
 		608B88011C1302740017C41C /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
-		608B88021C1302740017C41C /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
-		608B88031C1302740017C41C /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
-		608B88041C1302740017C41C /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
-		608B88051C1302740017C41C /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
-		608B88061C1302740017C41C /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
-		608B88071C1302740017C41C /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
 		608B88081C1302740017C41C /* TouchControls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TouchControls.cpp; sourceTree = "<group>"; };
 		608B88091C1302740017C41C /* TouchControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchControls.h; sourceTree = "<group>"; };
 		608B880A1C1302740017C41C /* TouchControlsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchControlsConfig.h; sourceTree = "<group>"; };
@@ -1929,13 +1923,11 @@
 		608B88001C1302740017C41C /* TinyXML */ = {
 			isa = PBXGroup;
 			children = (
+				606758801C52A25900B52C94 /* tinystr.cpp */,
+				606758811C52A25900B52C94 /* tinyxml.cpp */,
+				606758821C52A25900B52C94 /* tinyxmlerror.cpp */,
+				606758831C52A25900B52C94 /* tinyxmlparser.cpp */,
 				608B88011C1302740017C41C /* Android.mk */,
-				608B88021C1302740017C41C /* tinystr.cpp */,
-				608B88031C1302740017C41C /* tinystr.h */,
-				608B88041C1302740017C41C /* tinyxml.cpp */,
-				608B88051C1302740017C41C /* tinyxml.h */,
-				608B88061C1302740017C41C /* tinyxmlerror.cpp */,
-				608B88071C1302740017C41C /* tinyxmlparser.cpp */,
 			);
 			path = TinyXML;
 			sourceTree = "<group>";
@@ -2036,7 +2028,6 @@
 			files = (
 				605896301C14493300921EAE /* zip_source_zip.c in Sources */,
 				606117731C3310BE00CEAEE7 /* UnicodeRange.cpp in Sources */,
-				605896311C14493300921EAE /* tinyxml.cpp in Sources */,
 				6061174D1C3310BE00CEAEE7 /* StyleSheetNodeSelectorLastOfType.cpp in Sources */,
 				605896321C14493300921EAE /* png.c in Sources */,
 				6061168B1C3310BE00CEAEE7 /* DocumentHeader.cpp in Sources */,
@@ -2071,7 +2062,6 @@
 				6061165F1C3310BE00CEAEE7 /* Box.cpp in Sources */,
 				606116471C3310BE00CEAEE7 /* WidgetTextInputSingleLine.cpp in Sources */,
 				606117431C3310BE00CEAEE7 /* StyleSheetNodeSelector.cpp in Sources */,
-				6058963C1C14493300921EAE /* tinyxmlerror.cpp in Sources */,
 				6058963D1C14493300921EAE /* zip_source_free.c in Sources */,
 				6058963E1C14493300921EAE /* Mouse.cpp in Sources */,
 				606117011C3310BE00CEAEE7 /* PropertyParserString.cpp in Sources */,
@@ -2156,7 +2146,6 @@
 				606117991C3310BE00CEAEE7 /* Plugin.cpp in Sources */,
 				606116211C3310BE00CEAEE7 /* InputTypeButton.cpp in Sources */,
 				605896601C14493300921EAE /* pngrio.c in Sources */,
-				605896611C14493300921EAE /* tinyxmlparser.cpp in Sources */,
 				606116F71C3310BE00CEAEE7 /* PropertyDefinition.cpp in Sources */,
 				606116A11C3310BE00CEAEE7 /* ElementScroll.cpp in Sources */,
 				606116511C3310BE00CEAEE7 /* BaseXMLParser.cpp in Sources */,
@@ -2176,7 +2165,6 @@
 				606116E31C3310BE00CEAEE7 /* LayoutEngine.cpp in Sources */,
 				6061160F1C3310BE00CEAEE7 /* ElementForm.cpp in Sources */,
 				606116BF1C3310BE00CEAEE7 /* FontEffectInstancer.cpp in Sources */,
-				605896681C14493300921EAE /* tinystr.cpp in Sources */,
 				605896691C14493300921EAE /* zip_error_get_sys_type.c in Sources */,
 				606116F91C3310BE00CEAEE7 /* PropertyDictionary.cpp in Sources */,
 				606117951C3310BE00CEAEE7 /* ElementLog.cpp in Sources */,
@@ -2317,7 +2305,6 @@
 			files = (
 				608B88521C1302740017C41C /* zip_source_zip.c in Sources */,
 				606117461C3310BE00CEAEE7 /* StyleSheetNodeSelectorFirstChild.cpp in Sources */,
-				608B88691C1302740017C41C /* tinyxml.cpp in Sources */,
 				608B88161C1302740017C41C /* png.c in Sources */,
 				606116E61C3310BE00CEAEE7 /* LayoutInlineBoxText.cpp in Sources */,
 				606116CE1C3310BE00CEAEE7 /* FontFaceLayer.cpp in Sources */,
@@ -2334,6 +2321,7 @@
 				6061179A1C3310BE00CEAEE7 /* SystemInterface.cpp in Sources */,
 				606116CA1C3310BE00CEAEE7 /* FontEffectShadowInstancer.cpp in Sources */,
 				6061174E1C3310BE00CEAEE7 /* StyleSheetNodeSelectorNthChild.cpp in Sources */,
+				606758871C52A25900B52C94 /* tinyxmlerror.cpp in Sources */,
 				608B881D1C1302740017C41C /* pngrtran.c in Sources */,
 				606116101C3310BE00CEAEE7 /* ElementFormControl.cpp in Sources */,
 				608B882F1C1302740017C41C /* zip_error_clear.c in Sources */,
@@ -2347,9 +2335,9 @@
 				606116241C3310BE00CEAEE7 /* InputTypeRadio.cpp in Sources */,
 				606116A41C3310BE00CEAEE7 /* ElementText.cpp in Sources */,
 				6061177E1C3310BE00CEAEE7 /* WString.cpp in Sources */,
-				608B886A1C1302740017C41C /* tinyxmlerror.cpp in Sources */,
 				606116C61C3310BE00CEAEE7 /* FontEffectOutlineInstancer.cpp in Sources */,
 				6062930A1C4A9D6C00699E3B /* ShellFileInterface.cpp in Sources */,
+				606758881C52A25900B52C94 /* tinyxmlparser.cpp in Sources */,
 				6061173E1C3310BE00CEAEE7 /* StyleSheetFactory.cpp in Sources */,
 				606116BE1C3310BE00CEAEE7 /* FontEffectInstancer.cpp in Sources */,
 				6061164C1C3310BE00CEAEE7 /* XMLNodeHandlerTabSet.cpp in Sources */,
@@ -2398,6 +2386,7 @@
 				606116C21C3310BE00CEAEE7 /* FontEffectNoneInstancer.cpp in Sources */,
 				6061163C1C3310BE00CEAEE7 /* WidgetDropDown.cpp in Sources */,
 				606116941C3310BE00CEAEE7 /* ElementDefinition.cpp in Sources */,
+				606758861C52A25900B52C94 /* tinyxml.cpp in Sources */,
 				606116001C3310BE00CEAEE7 /* DataQuery.cpp in Sources */,
 				608B88191C1302740017C41C /* pngmem.c in Sources */,
 				6061169A1C3310BE00CEAEE7 /* ElementImage.cpp in Sources */,
@@ -2487,11 +2476,11 @@
 				606117001C3310BE00CEAEE7 /* PropertyParserString.cpp in Sources */,
 				608B881C1C1302740017C41C /* pngrio.c in Sources */,
 				6061163E1C3310BE00CEAEE7 /* WidgetSlider.cpp in Sources */,
-				608B886B1C1302740017C41C /* tinyxmlparser.cpp in Sources */,
 				606117861C3310BE00CEAEE7 /* XMLNodeHandlerHead.cpp in Sources */,
 				606116221C3310BE00CEAEE7 /* InputTypeCheckbox.cpp in Sources */,
 				608B88241C1302740017C41C /* pngwutil.c in Sources */,
 				606116B61C3310BE00CEAEE7 /* FileInterface.cpp in Sources */,
+				606758851C52A25900B52C94 /* tinystr.cpp in Sources */,
 				606116A21C3310BE00CEAEE7 /* ElementStyle.cpp in Sources */,
 				606117521C3310BE00CEAEE7 /* StyleSheetNodeSelectorNthLastOfType.cpp in Sources */,
 				608B886D1C1302740017C41C /* TouchControlsContainer.cpp in Sources */,
@@ -2501,7 +2490,6 @@
 				608B88141C1302740017C41C /* GLRect.cpp in Sources */,
 				606116421C3310BE00CEAEE7 /* WidgetTextInput.cpp in Sources */,
 				608B88591C1302740017C41C /* zip_unchange_archive.c in Sources */,
-				608B88681C1302740017C41C /* tinystr.cpp in Sources */,
 				608B88311C1302740017C41C /* zip_error_get_sys_type.c in Sources */,
 				606115FC1C3310BE00CEAEE7 /* Controls.cpp in Sources */,
 				606116021C3310BE00CEAEE7 /* DataSource.cpp in Sources */,
@@ -2751,6 +2739,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					__IOS__,
 					DEBUG,
@@ -2761,7 +2750,6 @@
 					RocketFreeType_EXPORTS,
 					RocketDebugger_EXPORTS,
 					USE_GLES,
-					USE_LIBROCKET,
 				);
 				HEADER_SEARCH_PATHS = (
 					touchcontrols/MobileTouchControls/,
@@ -2795,7 +2783,6 @@
 					RocketFreeType_EXPORTS,
 					RocketDebugger_EXPORTS,
 					USE_GLES,
-					USE_LIBROCKET,
 				);
 				HEADER_SEARCH_PATHS = (
 					touchcontrols/MobileTouchControls/,
